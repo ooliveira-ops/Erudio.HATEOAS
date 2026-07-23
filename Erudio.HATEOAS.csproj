@@ -13,13 +13,11 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <Version>10.0.301.3</Version>
 	  <PackageIcon>icon-Nuget.png</PackageIcon>
-	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <Version>10.0.301.4</Version>
   </PropertyGroup>
 
 	<ItemGroup>
         <FrameworkReference Include="Microsoft.AspNetCore.App" Version="10.0.0" />
-		<None Include="docs\README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 
 	<ItemGroup>
